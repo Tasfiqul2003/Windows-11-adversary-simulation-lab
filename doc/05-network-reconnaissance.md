@@ -81,15 +81,15 @@ The `-p-` option checks all TCP ports from 1 through 65535.
 
 This scan may take longer than the basic service scan.
 
-**Result:** `[ENTER RESULT OR WRITE NOT PERFORMED]`
+**Result:** Result from full port scan was too long and current machine not powerfull enough, this is an optional port scan.
 
 ## Findings
 
 The reconnaissance stage showed that:
 
 * The Windows 11 virtual machine was `REACHABLE`.
-* Nmap identified `[NUMBER]` open port or ports.
-* The main services discovered were `[ENTER SERVICES]`.
+* Nmap identified three open port or ports.
+* The main services discovered were Microsoft-ds, netbios-ssn and msrpc services.
 * All activity remained inside the isolated virtual environment.
 
 Finding an open port does not automatically mean that the system is vulnerable. Additional investigation is needed to understand the service and its security configuration.
@@ -136,19 +136,9 @@ Remove the final image section for the full port scan if you did not perform it.
 
 | Task                           | Status          |
 | ------------------------------ | --------------- |
-| Windows connectivity confirmed | To be completed |
-| Host discovery scan performed  | To be completed |
-| Service scan performed         | To be completed |
+| Windows connectivity confirmed | Completed       |
+| Host discovery scan performed  | Completed       |
+| Service scan performed         | Completed       |
 | Full port scan performed       | Optional        |
-| Results documented             | To be completed |
-| Screenshots uploaded           | To be completed |
-
-## Completion
-
-This stage is complete when the Windows 11 machine has been identified, its available services have been documented, and the scan evidence has been uploaded.
-
-The next file is:
-
-```text
-06-adversary-simulation-and-detection.md
-```
+| Results documented             | Completed       |
+| Screenshots uploaded           | Completed       |
