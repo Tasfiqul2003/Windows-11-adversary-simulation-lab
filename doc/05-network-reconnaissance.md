@@ -97,21 +97,16 @@ Finding an open port does not automatically mean that the system is vulnerable. 
 ## Screenshots
 
 ```markdown
-![Kali connectivity test](../screenshots/05-kali-connectivity-check.png)
-
-*Figure 1: Kali Linux confirming connectivity with the Windows 11 endpoint.*
-
 ![Nmap host discovery](../screenshots/05-nmap-host-discovery.png)
 
-*Figure 2: Nmap confirming that the Windows 11 machine is active.*
+*Figure 1: Nmap confirming that the Windows 11 machine is active.*
 
-![Nmap service scan](../screenshots/05-nmap-service-scan.png)
+![Nmap service scan](../screenshots/05 Host Discovery NMAP)
 
-*Figure 3: Nmap identifying open ports and services.*
+*Figure 2: Nmap identifying open ports and services.*
 
-![Nmap full port scan](../screenshots/05-nmap-full-port-scan.png)
+![Nmap full port scan](../screenshots/05-Service-and-Version Scan)
 
-*Figure 4: Results of the full TCP port scan.*
 ```
 
 Remove the final image section for the full port scan if you did not perform it.
@@ -119,10 +114,8 @@ Remove the final image section for the full port scan if you did not perform it.
 ## Screenshot Checklist
 
 ```text
-05-kali-connectivity-check.png
 05-nmap-host-discovery.png
 05-nmap-service-scan.png
-05-nmap-full-port-scan.png
 ```
 
 ## Safety
