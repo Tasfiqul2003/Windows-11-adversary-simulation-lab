@@ -57,14 +57,15 @@ nmap -sV 192.168.100.2
 
 The `-sV` option attempts to identify the service and version running on each discovered port.
 
-**Result:** `[ENTER OPEN PORTS AND SERVICES]`
+**Result:** `Nmap scan report for 192.168.100.2`
 
 Example results may include:
 
-| Port     | Service     | Status |
-| -------- | ----------- | ------ |
-| `[PORT]` | `[SERVICE]` | Open   |
-| `[PORT]` | `[SERVICE]` | Open   |
+| Port     | Service      | Status |
+| -------- | -----------  | ------ |
+| `135`    | msrpc        | Open   |
+| `139`    | netbios-ssn  | Open   |
+| `445`    | microsoft-ds | Open   |
 
 Only include ports that were actually shown in your scan.
 
